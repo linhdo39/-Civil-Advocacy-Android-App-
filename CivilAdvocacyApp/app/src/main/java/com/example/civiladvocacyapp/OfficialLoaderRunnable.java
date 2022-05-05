@@ -18,7 +18,7 @@ public class OfficialLoaderRunnable implements Runnable{
     private static final String TAG = "OfficialLoaderRunnable";
     private final String value;
     private final MainActivity mainActivity;
-    private final String API_KEY="AIzaSyD85KfHwsbvlpGfAWb4DMToiD_ZxeXDAo4";
+    private final String API_KEY; // insert your api key here
     private final String url = "https://www.googleapis.com/civicinfo/v2/representatives?key=" + API_KEY+"&address=";
 
     OfficialLoaderRunnable(String value, MainActivity mainActivity) {
